@@ -31,7 +31,7 @@
 
 
 ## 프로그램 구조
-![시스템구성도](https://user-images.githubusercontent.com/55689863/172053152-ef28a8b5-7f6d-4c12-8ac5-f84167b3df81.jpg)
+![제안방법](https://user-images.githubusercontent.com/55689863/189947587-5b2276d5-a5a6-4361-b601-7aed400c2032.png)
 
 ## 개발환경
 colab
