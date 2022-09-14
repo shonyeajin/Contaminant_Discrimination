@@ -33,8 +33,15 @@
 
 
 ## Run
-  - 필요한 실험 자료를 얻기 위해 어떤 코드를 실행해야 하는지 정리해서 명시하기(추가 실험 진행 후)
+ 1. How to train
+    - data.yaml 'train', 'val', 'test' 경로 수정하기
+    - cd yolov5
+    - python train.py --img 416 --batch 16 --epoch 50 --data ../data.yaml --cfg ./models/yolov5s.yaml --weights yolov5s.pt --name [결과 파일 이름]
 
+ 2. 크롭 이미지 생성하기 -> crop.py 실행
+ 3. 유사도 비교하기 -> similarity.py 실행
+ 4. 데이터 분포 확인하기 -> eda.py 실행
+  
 
 ## 제안 방법
 ![제안방법](https://user-images.githubusercontent.com/55689863/189947587-5b2276d5-a5a6-4361-b601-7aed400c2032.png)
